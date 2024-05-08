@@ -3,7 +3,7 @@
 In construction . . .
 
 The file `functions.py` contains all functions to compute the network mutual information measures for graph similarity 
-found in the manuscript arXiv.2405.xxxxx.
+found in the manuscript [arXiv.2405.xxxxx](https://arxiv.org/list/physics.soc-ph/recent).
 The folder `data` contains all data sets used in the manuscript: FAO product trades, APS scientific collaborations, 
 and OpenFlights continental airport networks. The file `notebook.ipynb` goes through some of the results found in 
 the manuscript, particularly the analysis over the FAO network.
