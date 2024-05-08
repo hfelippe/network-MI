@@ -1,0 +1,196 @@
+index,name,hemisphere,continent,gdp_2010,b_hemis,b_cont,b_gdp
+0,Afghanistan,South,Asia,14.3624414692682,0,1,34
+1,Australia,North,Oceania,2.22653807797504,1,4,16
+2,Austria,North,Europe,1.83709367680054,1,2,15
+3,Belgium,North,Europe,2.86429270764155,1,2,17
+4,Brazil,South,South America,7.52822581815364,0,5,24
+5,Canada,North,North America,3.08991946152595,1,3,17
+6,China,South,Asia,10.6358710659572,0,1,28
+7,"China,_Hong_Kong_SAR",South,Asia,6.76769054741861,0,1,23
+10,Denmark,North,Europe,1.87099114718497,1,2,15
+11,Egypt,South,Africa,5.1472348575531,0,0,20
+12,Finland,North,Europe,3.18595865407703,1,2,17
+13,France,North,Europe,1.94943762312663,1,2,15
+14,Germany,North,Europe,4.17988249873657,1,2,19
+15,Guatemala,South,North America,2.88417542800377,0,3,17
+16,India,South,Asia,8.49758470212609,0,1,25
+17,Indonesia,South,Asia,6.2238541798264,0,1,22
+18,Iran_(Islamic_Republic_of),South,Asia,5.79793829590261,0,1,21
+19,Iraq,South,Asia,6.40256484471193,0,1,22
+20,Ireland,North,Europe,1.68297202204354,1,2,15
+21,Italy,North,Europe,1.71329583916922,1,2,15
+22,Japan,North,Asia,4.09791791930137,1,1,19
+23,Kazakhstan,North,Asia,7.30000000329814,1,1,23
+24,Lebanon,South,Asia,7.97513555844932,0,1,24
+25,Malaysia,South,Asia,7.42484738326097,0,1,24
+26,Netherlands,North,Europe,1.34273933636553,1,2,15
+27,Pakistan,South,Asia,1.50171752152883,0,1,15
+28,Philippines,South,Asia,7.33449996514402,0,1,23
+29,Poland,North,Europe,2.93463818052832,1,2,17
+30,Republic_of_Korea,South,Asia,6.80482491783671,0,1,23
+31,Russian_Federation,North,Europe,4.49999999920672,1,2,19
+32,Saudi_Arabia,South,Asia,5.03949288842378,0,1,20
+33,Singapore,South,Asia,14.5197497108994,0,1,34
+34,Spain,North,Europe,0.162919517758226,1,2,13
+35,Sweden,North,Europe,5.95210700755608,1,2,21
+36,Switzerland,North,Europe,3.24339733550173,1,2,17
+37,Tajikistan,South,Asia,6.49999908585235,0,1,22
+38,Thailand,South,Asia,7.51339053261624,0,1,24
+39,Turkey,North,Asia,8.42710432276191,1,1,25
+40,Turkmenistan,South,Asia,9.19999998805483,0,1,26
+41,Ukraine,North,Europe,4.09200436668087,1,2,19
+42,United_Arab_Emirates,South,Asia,1.60285004831225,0,1,15
+43,United_Kingdom,North,Europe,2.23868863381415,1,2,16
+44,United_States_of_America,North,North America,2.70885669419681,1,3,17
+45,Uzbekistan,North,Asia,7.5971679610016,1,1,24
+46,Viet_Nam,South,Asia,6.42324482239482,0,1,22
+47,Albania,North,Europe,3.70693815255319,1,2,18
+48,Argentina,South,South America,10.1253981561002,0,5,27
+49,Bahamas,South,North America,1.53866248693835,0,3,15
+50,Bosnia_and_Herzegovina,North,Europe,0.865669260237084,1,2,14
+51,Bulgaria,North,Europe,1.55535951301474,1,2,15
+52,Cabo_Verde,South,Africa,1.83641914989978,0,0,15
+53,Cameroon,South,Africa,2.89902472122014,0,0,17
+54,Colombia,South,South America,4.49465897070922,0,5,19
+55,Comoros,South,Africa,3.77776674982255,0,0,18
+56,Congo,South,Africa,9.93126543095578,0,0,27
+57,Costa_Rica,South,South America,5.36034347694341,0,5,20
+58,CÃ´te_d'Ivoire,South,Africa,6.84804939907013,0,0,23
+59,Croatia,North,Europe,-1.24307134590256,1,2,11
+60,Cuba,South,North America,2.39035229650723,0,3,16
+61,Cyprus,North,Europe,2.01469570699406,1,2,16
+62,Czech_Republic,North,Europe,2.43490215904518,1,2,16
+63,Dominica,South,North America,0.672634400445048,0,3,14
+64,Dominican_Republic,South,South America,8.33965105962218,0,5,25
+65,Ecuador,South,South America,3.52529866894027,0,5,18
+66,Ethiopia,South,Africa,12.5505383459308,0,0,31
+67,Greece,North,Europe,-5.47780804926842,1,2,5
+68,Hungary,North,Europe,1.0762540427767,1,2,14
+69,Israel,North,Asia,5.66851511790733,1,1,21
+70,Kenya,South,Africa,8.05847360290906,0,0,24
+71,Kyrgyzstan,North,Asia,-0.471566601130064,1,1,12
+72,Lithuania,North,Europe,1.65124065328366,1,2,15
+73,Luxembourg,North,Europe,3.76041359255095,1,2,18
+74,Malawi,South,Africa,6.87406585401583,0,0,23
+75,Mexico,North,North America,4.9713345620779,1,3,20
+76,Montenegro,North,Europe,2.73433108233829,1,2,17
+77,Morocco,South,Africa,3.49955709403216,0,0,18
+78,Nicaragua,South,North America,4.41048139816023,0,3,19
+79,Norway,North,Europe,0.787051845495441,1,2,14
+80,Panama,South,North America,5.82799344815517,0,3,21
+81,Portugal,North,Europe,1.73762547590566,1,2,15
+82,Republic_of_Moldova,North,Europe,7.10000010705836,1,2,23
+83,Romania,North,Europe,-3.90123628018621,1,2,7
+84,Sao_Tome_and_Principe,South,Africa,1.44843400467023,0,0,15
+85,Serbia,North,Europe,0.73104455254213,1,2,14
+86,Slovakia,North,Europe,6.71663274983085,1,2,22
+87,Slovenia,North,Europe,1.34374847220215,1,2,15
+88,Syrian_Arab_Republic,South,Asia,5.19190584075331,0,1,20
+89,The_former_Yugoslav_Republic_of_Macedonia,North,Europe,3.35875085773812,1,2,18
+90,Tunisia,South,Africa,2.97113275066512,0,0,17
+91,Uganda,South,Africa,5.63761163749757,0,0,21
+93,Venezuela_(Bolivarian_Republic_of),South,South America,-1.48879125078348,0,5,10
+94,Bolivia_(Plurinational_State_of),South,South America,4.1267225910567,0,5,19
+95,Chile,South,South America,5.85165101730949,0,5,21
+96,El_Salvador,South,South America,2.15419501133786,0,5,16
+97,Estonia,North,Europe,2.44426511799784,1,2,16
+98,Fiji,South,Oceania,2.95467242212241,0,4,17
+99,Georgia,North,Europe,6.23231018305886,1,2,22
+100,Honduras,South,North America,3.73114034433009,0,3,18
+101,Iceland,North,Europe,-2.83277491540855,1,2,8
+102,Jamaica,South,North America,-1.45714720947502,0,3,10
+103,Madagascar,South,Africa,0.619239744622121,0,0,14
+104,New_Zealand,North,Asia,1.46675116493462,1,1,15
+105,Papua_New_Guinea,South,South America,10.1284540720232,0,5,27
+106,Paraguay,South,South America,11.0952312685521,0,5,29
+107,Peru,South,South America,8.33245910749577,0,5,25
+108,South_Africa,South,Africa,3.03973288127956,0,0,17
+109,Sri_Lanka,South,Asia,8.01596737040464,0,1,24
+111,Trinidad_and_Tobago,South,South America,3.32322471027371,0,5,17
+112,United_Republic_of_Tanzania,South,Africa,6.33652342667861,0,0,22
+113,Uruguay,South,South America,7.8034096507169,0,5,24
+114,Zambia,South,Africa,10.2982233241213,0,0,28
+115,Armenia,North,Europe,2.2000000002151,1,2,16
+116,Belarus,North,Europe,7.79826683524436,1,2,24
+117,Central_African_Republic,South,Africa,4.63081843223307,0,0,19
+118,Ghana,South,Africa,7.89971194051621,0,0,24
+119,Guyana,South,South America,4.13844160137342,0,5,19
+120,Latvia,North,Europe,-4.455567259981,1,2,6
+121,Mali,South,Africa,5.31393527895875,0,0,20
+122,Nauru,South,Oceania,-1.61290322580645,0,4,10
+123,Nigeria,South,Africa,8.00565591628646,0,0,24
+124,Oman,South,Asia,1.71398531148034,0,1,15
+125,Sierra_Leone,South,Africa,6.63749245827168,0,0,22
+126,Aruba,South,South America,-2.73345570739019,0,5,9
+127,Barbados,South,North America,-2.27218807289982,0,3,9
+129,Suriname,South,South America,5.16882515225814,0,5,20
+130,American_Samoa,South,Asia,0.299850074962521,0,1,13
+131,Antigua_and_Barbuda,South,South America,-7.84059474412177,0,5,1
+132,Azerbaijan,North,Europe,5.04894451349574,1,2,20
+133,Bahrain,South,Asia,4.33429917283131,0,1,19
+134,Bangladesh,South,Asia,5.57178818533122,0,1,21
+135,Belize,South,North America,1.23995291537476,0,3,14
+136,Bermuda,South,South America,-2.50287828947368,0,5,9
+137,Botswana,South,Africa,10.1222091179732,0,0,27
+138,Cambodia,South,Asia,5.96307857286416,0,1,21
+139,"China,_Macao_SAR",South,Asia,25.1225945599347,0,1,49
+141,Democratic_Republic_of_the_Congo,South,Africa,7.10797657581392,0,0,23
+143,Eritrea,South,Africa,2.19419034888082,0,0,16
+144,Guinea,South,Africa,4.81336016860719,0,0,20
+145,Jordan,South,Asia,2.31483422063046,0,1,16
+146,Lao_People's_Democratic_Republic,South,Asia,8.52690551739717,0,1,25
+147,Malta,North,Europe,5.5436400107222,1,2,21
+148,Marshall_Islands,South,Asia,5.44676450566732,0,1,21
+149,Mauritius,South,Africa,4.37720322344293,0,0,19
+150,Mongolia,South,Asia,6.3651616786311,0,1,22
+151,Mozambique,South,Africa,6.67972935662864,0,0,22
+152,Myanmar,South,Asia,9.6344394521787,0,1,27
+153,Namibia,South,Africa,6.03924947955858,0,0,21
+154,Nepal,South,Asia,4.81641464694573,0,1,20
+156,Niger,South,Africa,8.57816674262253,0,0,25
+157,Qatar,South,Asia,19.5923315337859,0,1,41
+158,Rwanda,South,Africa,7.33464808968141,0,0,23
+159,Saint_Lucia,South,South America,0.330018546071486,0,5,13
+160,Samoa,South,Oceania,6.1247199226125,0,4,22
+161,Solomon_Islands,South,Asia,9.70838816928725,0,1,27
+162,Swaziland,South,Africa,3.79375496828149,0,0,18
+163,Timor-Leste,South,Asia,9.33151176629212,0,1,26
+164,Tonga,South,Oceania,0.803490182523831,0,4,14
+165,Vanuatu,South,Oceania,1.25886720329326,0,4,14
+166,Yemen,South,Asia,7.7023070491292,0,1,24
+167,Zimbabwe,South,Africa,21.4520609184971,0,0,44
+168,Algeria,South,Africa,3.60000000078881,0,0,18
+169,Burkina_Faso,South,Africa,8.44628157707625,0,0,25
+170,Grenada,South,North America,-0.511146187173722,0,3,12
+171,Kuwait,South,Asia,-2.37026412020438,0,1,9
+172,Togo,South,Africa,5.85435269284599,0,0,21
+174,Guam,South,Asia,2.26325193567601,0,1,16
+176,Saint_Kitts_and_Nevis,South,South America,0.0439776540971621,0,5,13
+177,Saint_Vincent_and_the_Grenadines,South,South America,-4.47046793507802,0,5,6
+178,Angola,South,Africa,4.39837593810763,0,0,19
+179,Benin,South,Africa,2.11406472648392,0,0,16
+180,Burundi,South,Africa,5.12415999439806,0,0,20
+181,French_Polynesia,South,South America,-2.4660641898174,0,5,9
+182,Gabon,South,Africa,7.08988731455126,0,0,23
+183,Haiti,South,North America,-5.65151153448299,0,3,4
+184,Liberia,South,Africa,6.09982524004147,0,0,22
+186,Senegal,South,Africa,3.39088925336209,0,0,18
+188,Seychelles,South,Africa,4.50513204312067,0,0,19
+189,Bhutan,South,Asia,11.945895998376,0,1,30
+191,Lesotho,South,Africa,5.26967078056286,0,0,20
+192,Gambia,South,Africa,5.90833580968288,0,0,21
+193,Guinea-Bissau,South,Africa,4.61097090010318,0,0,19
+195,Chad,South,Africa,13.5501008595489,0,0,33
+196,Equatorial_Guinea,South,Africa,-8.92417588851806,0,0,0
+197,Faroe_Islands,North,Europe,-0.576939114349187,1,2,12
+201,Brunei_Darussalam,South,Asia,2.59896574643226,0,1,16
+202,Greenland,North,Europe,1.73582505889665,1,2,15
+203,Libya,South,Africa,5.0272476723775,0,0,20
+204,Micronesia_(Federated_States_of),South,Asia,2.25938995585932,0,1,16
+205,Palau,North,Oceania,0.21609349236023,1,4,13
+206,Kiribati,South,Oceania,-1.12026026125162,0,4,11
+208,Tuvalu,North,Oceania,-2.22222222222223,1,4,9
+209,Cayman_Islands,South,South America,-2.71563526217577,0,5,9
+211,Maldives,South,Asia,6.83547139396723,0,1,23
+212,Mauritania,South,Africa,2.62022952055378,0,0,16
+213,Andorra,North,Europe,-1.97495799965345,1,2,10
