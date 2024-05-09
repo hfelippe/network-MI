@@ -1,11 +1,9 @@
-# network-MI
-
-In construction . . .
+# Network mutual information
 
 The file `functions.py` contains all functions to compute the network mutual information measures for graph similarity 
-found in the manuscript [arXiv.2405.xxxxx](https://arxiv.org/list/physics.soc-ph/recent).
+found in the manuscript [arXiv.2405.05177](https://arxiv.org/abs/2405.05177).
 The folder `data` contains all data sets used in the manuscript: FAO product trades, APS scientific collaborations, 
-and OpenFlights continental airport networks. The file `notebook.ipynb` goes through some of the results found in 
+and the OpenFlights continental airport networks. The file `notebook.ipynb` goes through some of the results found in 
 the manuscript, particularly the analysis over the FAO network.
 
 ```
@@ -20,4 +18,4 @@ the manuscript, particularly the analysis over the FAO network.
 ```
 
 If you find the code useful, consider citing: <br>
-H. Felippe, F. Battiston, A. Kirkley, "Network mutual information measures for graph similarity", arXiv.2405.xxxxx (2024)
+H. Felippe, F. Battiston, A. Kirkley, "Network mutual information measures for graph similarity", arXiv.2405.05177 (2024)
