@@ -4,20 +4,18 @@ from scipy.special import loggamma
 from collections import defaultdict
 
 def logmultiset(N,K):
-    return logchoose(N+K-1,K)
-
-def logmultiset(N,K):
     """logarithm of multiset coefficient"""
     return loggamma(N+K-1+1) - loggamma(K+1) - loggamma(N-1+1)
-
-def ent(vec):
-    vec  = np.array(vec)/sum(vec)
-    return -sum([x*np.log(x+1e-100) for x in vec])
 
 def zero_log(x):
     """log of zero is zero"""
     if x <= 0: return 0
     else: return np.log(x)
+
+def ent(vec):
+    """entropy of a distribution"""
+    vec  = np.array(vec)/sum(vec)
+    return -sum([x*zero_log(x) for x in vec])
 
 def jaccard(A, B):
     """Jaccard index of sets A and B"""
@@ -29,10 +27,10 @@ def NMI(N,e1,e2):
     E1,E2,E12,Union = len(e1),len(e2),len(e1.intersection(e2)),len(e1.union(e2))
     p1,p2,p12 = E1/Nc2,E2/Nc2,E12/Nc2
     H1,H2 = ent([p1,1-p1]), ent([p2,1-p2])
-    MI = H1 + H2 - ent([p12,p1-p12,p2-p12,1-p1-p2+p12]) 
-    NMI = 2*MI/(H1+H2)
+    MI = H1 + H2 - ent([p12,p1-p12,p2-p12,1-p1-p2+p12])
+    NMI = (2*MI+1e-100)/(H1+H2+1e-100) # negligibly small constants for the empty and complete graphs
     return NMI
- 
+
 def DCNMI(N,e1,e2):
     """degree-corrected normalized mutual information between N-node graphs with edge sets e1, e2"""
     adj1,adj2 = defaultdict(set),defaultdict(set)
@@ -54,7 +52,7 @@ def DCNMI(N,e1,e2):
         DCH1 += ent([p1i,1-p1i])
         DCH2 += ent([p2i,1-p2i])
         DCMI += ent([p1i,1-p1i]) + ent([p2i,1-p2i]) - ent([p12i,p1i-p12i,p2i-p12i,1-p1i-p2i+p12i])
-    DCNMI = 2*DCMI/(DCH1+DCH2)
+    DCNMI = (2*DCMI+1e-100)/(DCH1+DCH2+1e-100) # negligibly small constants for the empty and complete graphs
     return DCNMI
 
 def mesoNMI(N,e1,e2,partition):
@@ -84,14 +82,14 @@ def mesoNMI(N,e1,e2,partition):
     I = H1 + H2 - H12
     I0 = H1 + H2 - logmultiset(Bc2+B,E1+E2)
 
-    return (I - I0 +1e-100)/((H1+H2)/2 - I0 +1e-100) # the tiny sums is to recover the limiting behavior meso->1 as B=1.
+    return (I - I0 +1e-100)/((H1+H2)/2 - I0 +1e-100) 
 
 """
         Attack over graphs
 """
 
 def typeI(Gset, eps):
-    """Type I noise over fraction eps of nodes in decreasing order of degree""" # to get the random attack, modify `deg_order`
+    """Type I noise over fraction eps of nodes in decreasing order of degree""" # to get the random attack, modify `degree_order`
 
     def degree_order(dict_node_order):
         """returns node_order sorted by highest-degree"""

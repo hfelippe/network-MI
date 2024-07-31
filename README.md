@@ -6,15 +6,18 @@ The folder `data` contains all data sets used in the manuscript: FAO product tra
 and the OpenFlights continental airport networks. The file `notebook.ipynb` goes through some of the results found in 
 the manuscript, particularly the analysis over the FAO network.
 
+The code functions rely on an environment running Python 3.10, NumPy 1.26.4, and SciPy 1.13.1. To run the Jupyter Notebook file, we further needed Matploblib, pandas, NetworkX, and rbo, the versions of which can be found in the file `requirements.txt`.
+
 ```
 ./
  ├── README.md
  ├── data
- │   ├── airports
- │   ├── aps
- │   └── fao
+ │   ├── airports
+ │   ├── aps
+ │   └── fao
  ├── functions.py
- └── notebook.ipynb
+ ├── notebook.ipynb
+ └── requirements.txt
 ```
 
 If you find the code useful, consider citing: <br>
