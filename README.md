@@ -22,3 +22,4 @@ The code functions rely on an environment running Python 3.10, NumPy 1.26.4, and
 
 If you find the code useful, consider citing: <br>
 H. Felippe, F. Battiston, A. Kirkley, "Network mutual information measures for graph similarity", arXiv.2405.05177 (2024)
+[![DOI](https://zenodo.org/badge/797095655.svg)](https://zenodo.org/doi/10.5281/zenodo.13145601)
