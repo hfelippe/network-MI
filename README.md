@@ -1,6 +1,6 @@
 # Network mutual information
 
-The file `functions.py` contains all functions to compute the network mutual information measures for graph similarity. <br>
+The file `functions.py` contains all functions to compute the network mutual information measures for graph similarity found in the manuscript [arXiv.2405.05177](https://arxiv.org/abs/2405.05177). <br>
 
 The folder `data` contains all data sets used in the manuscript: FAO product trades, APS scientific collaborations, and the OpenFlights continental airport networks. <br>
 
